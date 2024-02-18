@@ -1,0 +1,158 @@
+body {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    color: #19191b;
+  }
+
+  .wrapper {
+    overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+[class*="__container"] {
+    max-width: 1075px;
+    margin: 0px auto;
+    padding: 0px 15px;
+  }
+  /* PC */
+@media (max-width: 1087px) {
+    [class*="__container"] {
+      max-width: 970px;
+    }
+  }
+  /* TABLET  */
+  @media (max-width: 991.98px) {
+    [class*="__container"] {
+      max-width: 750px;
+    }
+  }
+  /* MOBILE */
+  @media (max-width: 767.98px) {
+    [class*="__container"] {
+      max-width: none;
+    }
+  }
+  /* MOBILE SMALL*/
+  @media (max-width: 479.98px) {
+  }
+
+.header {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
+.header__container {
+    display: flex;
+    min-height: 120px;
+    align-items: center;
+}
+.header__logo {
+    /* width: 199px;
+height: 39px; */
+position: relative;
+z-index: 5;
+
+}
+.header__menu {
+    flex: 1 1 auto;
+}
+.menu {
+    display: flex;
+  justify-content: flex-end;
+}
+.menu__body {
+}
+.menu__list {
+    display: flex;
+}
+.menu__item {
+    margin: 0px 50px 0px 0px;
+
+}
+.menu__link {
+    font-size: 15px;
+letter-spacing: -0.03em;
+color: #696871;
+}
+.menu__link:hover {
+    text-decoration: underline;
+}
+.header__button {
+    position: relative;
+    z-index: 5;
+  flex: 0 0 330px;
+
+    display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.button {
+    display: inline-block;
+    /* width: 211px;
+    height: 60px; */
+    white-space: nowrap;
+    font-size: 17px;
+letter-spacing: -0.03em;
+text-align: center;
+color: #fff;
+letter-spacing: -0.03em;
+border-radius: 10px;
+padding: 19px 60px;
+background: #ff7143;
+}
+/* ========================================= */
+
+.main {
+    flex: 1 1 auto;
+}
+.get-started {
+/*  */
+}
+.get-started__container {
+    padding: 190px 15px 0px 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+.get-started__content {
+    flex: 0 1 48%;
+    padding: 0px 20px;
+}
+.get-started__block-text {
+    max-width: 460px;
+}
+
+.block-text {
+/*  */
+}
+.block-text__title {
+font-size: 80px;
+line-height: 96%;
+}
+.block-text__text {
+    font-family: Mulish;
+font-weight: 400;
+line-height: 150%;
+color: #696871;
+}
+.block-text__button {
+    /*  */
+}
+.button {
+}
+.get-started__image {
+    flex: 0 1 52%;
+    position: relative;
+    z-index: 2;
+}
+.get-started__image img{
+    max-width: 100%;
+}
