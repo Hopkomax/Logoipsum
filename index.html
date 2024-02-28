@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/reset.css" />
 
     <link
       href="https://fonts.googleapis.com/css?family=DM+Sans:900,400"
@@ -17,23 +18,22 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="/css/reset.css" />
     <link rel="stylesheet" href="/css/style.css" />
     <title>Logoipsum</title>
-
   </head>
+
   <body>
     <div class="wrapper">
       <header class="header">
         <div class="header__container">
-          <a href="" class="header__logo">
+          <a href="#" class="header__logo">
             <img src="img/logo.svg" alt="logo" />
           </a>
           <div class="header__menu menu">
             <nav class="menu__body">
               <ul class="menu__list">
                 <li class="menu__item">
-                  <a href="" class="menu__link">Home</a>
+                  <a href="#" class="menu__link">Home</a>
                 </li>
                 <li class="menu__item">
                   <a href="" class="menu__link">Features</a>
@@ -52,28 +52,186 @@
           </div>
         </div>
       </header>
-      
+
       <main class="main">
         <section class="get-started">
-            <div class="get-started__container">
-                <div class="get-started__content">
-                    <div class="get-started__block-text block-text">
-                        <h1 class="block-text__title">
-                            Grow your subscription business
-                        </h1>
-                        <div class="block-text__text">
-                            Outcome-centered products that reduce churn, optimize pricing, and grow your subscription business end-to-end.
-                        </div>
-                        <a href="" class="block-text__button button">Get Started</a>
-                    </div>
+          <div class="get-started__container">
+            <div class="get-started__content">
+              <div class="get-started__block-text block-text">
+                <h1 class="block-text__title first">
+                  Grow your subscription business
+                </h1>
+                <p class="block-text__text">
+                  Outcome-centered products that reduce churn, optimize pricing,
+                  and grow your subscription business end-to-end.
+                </p>
+                <div class="block-text__bottom">
+                  <a href="" class="block-text__button button button__blue"
+                    >Get Started</a
+                  >
+                  <div class="block-text__bottom__arrow">
+                    <img src="/img/get-started/down-arrow.svg" alt="arrow" />
+                    <a href="" class="block-text__arrow"></a>
+                  </div>
                 </div>
-                <div class="get-started__image">
-                    <img src="img/get-started/image.svg" alt="get-started.img">
-                </div>
+              </div>
             </div>
+            <div class="get-started__image">
+              <img src="img/get-started/image.svg" alt="get-started.img" />
+            </div>
+          </div>
         </section>
 
+        <section class="logos">
+          <div class="logos__container">
+            <div class="logo">
+              <img src="/img/logos/logo1.svg" alt="logo1" />
+            </div>
+            <div class="logo">
+              <img src="/img/logos/logo2.svg" alt="logo2" />
+            </div>
+            <div class="logo">
+              <img src="/img/logos/logo3.svg" alt="logo3" />
+            </div>
+            <div class="logo">
+              <img src="/img/logos/logo4.svg" alt="logo4" />
+            </div>
+            <div class="logo">
+              <img src="/img/logos/logo5.svg" alt="logo5" />
+            </div>
+          </div>
+        </section>
+
+        <section class="features">
+          <div class="features__container">
+            <div class="features__image">
+              <img src="/img/features/features.svg" alt="features" />
+            </div>
+            <div class="features__content">
+              <div class="features__block-text block-text">
+                <h2 class="block-text__title second">Subscription index</h2>
+                <p class="block-text__text second">
+                  A daily dataset to keep you up to date on subscription market
+                  trends and what's happening in your vertical.
+                </p>
+                <a href="" class="block-text-link">Learn more</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="metrics">
+          <div class="metrics__container">
+            <div class="metrics__content">
+              <div class="metrics__block-text block-text">
+                <h2 class="block-text__title second">In-depth metrics</h2>
+                <p class="block-text__text second">
+                  Accurate, real-time reporting at your fingertips. Getting data
+                  has never been easier.
+                </p>
+                <a href="" class="block-text-link">Learn more</a>
+              </div>
+            </div>
+            <div class="metrics__image">
+              <img src="/img/metrics/image.svg" alt="metrics" />
+            </div>
+          </div>
+        </section>
+
+        <section class="options">
+          <div class="options__container">
+            <div class="options__block benchmarks__block">
+              <div class="options__image benchmarks__image">
+                <img src="/img/options/benchmarks.svg" alt="benchmarks" />
+              </div>
+              <h4 class="options__title benchmarks__title">Benchmarks</h4>
+              <p class="options__text benchmarks__text">
+                See how you stack up against comparable companies in similar
+                stages.
+              </p>
+            </div>
+
+            <div class="options__block pricing__block">
+              <div class="options__image pricing__image">
+                <img src="/img/options/pricing.svg" alt="pricing" />
+              </div>
+              <h4 class="options__title pricing__title">Benchmarks</h4>
+              <p class="options__text pricing__text">
+                Benchmark the health of your monetization and pricing strategy.
+              </p>
+            </div>
+
+            <div class="options__block retention__block">
+              <div class="options__image retention__image">
+                <img src="/img/options/retention.svg" alt="retention" />
+              </div>
+              <h4 class="options__title retention__title">Benchmarks</h4>
+              <p class="options__text retention__text">
+                Audit where revenue leakage exists and where you can increase
+                retention.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="plan">
+          <div class="plan__container">
+            <div class="plan__head">
+              <div class="plan__block-text block-text">
+                <h2 class="block-text__title third">
+                  Get the right plan for future product.
+                </h2>
+              </div>
+              <div class="plan__buttons">
+                <a href="#" class="plan__button plan__button__blue active"
+                  >Yearly</a
+                >
+                <a href="#" class="plan__button plan__button__grey">Monthly</a>
+              </div>
+            </div>
+
+            <div class="plan__proposal">
+              <div class="proposal__block">
+                <h5 class="proposal__title">Starter</h5>
+                <p class="proposal__price">Free</p>
+                <ul class="proposal__terms">
+                  <li class="terms__website">1 Website</li>
+                  <li class="terms__hosting">5 GB Hosting</li>
+                  <li class="terms__support">Limited Support</li>
+                </ul>
+                <a href="" class="proposal__button">Get Started</a>
+              </div>
+
+              <div class="proposal__block proposal__block__premium">
+                <h5 class="proposal__title premium">Premium</h5>
+                <p class="proposal__price premium">$29<span>/month</span></p>
+                <ul class="proposal__terms premium">
+                  <li class="terms__website premium">10 Website</li>
+                  <li class="terms__hosting premium">15 GB Hosting</li>
+                  <li class="terms__support premium">Premium Support</li>
+                </ul>
+                <a href="" class="proposal__button premium"
+                  ><span>Get Started</span></a
+                >
+              </div>
+
+              <div class="proposal__block">
+                <h5 class="proposal__title">Enterprise</h5>
+                <p class="proposal__price">$49<span>/month</span></p>
+                <ul class="proposal__terms">
+                  <li class="terms__website">Unlimited Website</li>
+                  <li class="terms__hosting">50 GB Hosting</li>
+                  <li class="terms__support">Premium Support</li>
+                </ul>
+                <div class="proposal__button__wrapper">
+                  <a href="" class="proposal__button">Get Started</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </div>
+    <script src="/index.js"></script>
   </body>
 </html>
